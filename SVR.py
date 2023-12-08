@@ -1,9 +1,7 @@
 import pprint
 from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.linear_model import LinearRegression
 from sklearn.svm import SVR
 from sklearn.metrics import mean_squared_error
-from scipy.stats import expon, reciprocal, uniform
 from parse import parse
 
 '''

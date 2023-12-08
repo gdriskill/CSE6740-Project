@@ -1,8 +1,6 @@
 # code modified from class github https://github.com/ni-sha-c/CSE-6740-Fall23/blob/main/code/fc.py
 # and also the tutorial: https://machinelearningmastery.com/how-to-grid-search-hyperparameters-for-pytorch-models/
 # implement fully connected neural network with pytorch
-# Mostly written by chatGPT
-import argparse
 from sklearn.model_selection import train_test_split
 import torch
 import torch.nn as nn
